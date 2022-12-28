@@ -1,5 +1,5 @@
 {
-  "name": "karbura/message-bird-sms",
+  "name": "karbura/sms-message-bird",
   "description": "The Message Bird API integration for PHP",
   "keywords": [
     "yii2",
