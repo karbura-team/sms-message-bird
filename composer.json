@@ -1,0 +1,43 @@
+{
+  "name": "karbura/message-bird-sms",
+  "description": "The Message Bird API integration for PHP",
+  "keywords": [
+    "yii2",
+    "extension",
+    "sms"
+  ],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "KARBURA S.A"
+    }
+  ],
+
+  "require": {
+    "messagebird/php-rest-api": "~3.1.2",
+    "ext-json": "*",
+    "yiisoft/yii2": "*"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "MessageBirdSms\\": "src/MessageBirdSms"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
+  }
+}
