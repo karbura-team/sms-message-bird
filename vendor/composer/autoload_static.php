@@ -64,7 +64,7 @@ class ComposerStaticInit82b8380499cfb2b3f9e50a92f511c08a
         ),
         'MessageBirdSms\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/src/MessageBirdSms',
         ),
         'Firebase\\JWT\\' => 
         array (

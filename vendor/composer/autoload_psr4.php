@@ -13,6 +13,6 @@ return array(
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
     'MessageBird\\' => array($vendorDir . '/messagebird/php-rest-api/src/MessageBird'),
-    'MessageBirdSms\\' => array($baseDir . '/src'),
+    'MessageBirdSms\\' => array($baseDir . '/src/MessageBirdSms'),
     'Firebase\\JWT\\' => array($vendorDir . '/firebase/php-jwt/src'),
 );
